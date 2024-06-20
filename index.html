@@ -3,109 +3,159 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abishek Neduncheliyan - Data Governance Specialist</title>
+    <title>Abishek Neduncheliyan - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
-            color: #333;
         }
         header {
-            background-color: #4CAF50;
+            background-color: #3a5a40;
             color: white;
+            padding: 20px;
             text-align: center;
-            padding: 1em 0;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            background: #333;
-        }
-        nav a {
-            color: white;
-            padding: 14px 20px;
-            text-decoration: none;
-            text-align: center;
-        }
-        nav a:hover {
-            background-color: #575757;
         }
         .container {
-            padding: 2em;
+            padding: 20px;
         }
-        .section-title {
-            border-bottom: 2px solid #4CAF50;
-            padding-bottom: 0.5em;
-            margin-bottom: 1em;
+        .profile-img {
+            width: 150px;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto 20px;
         }
-        .skills ul {
+        h1, h2, h3 {
+            color: #3a5a40;
+        }
+        .contact-info, .skills, .experience, .projects, .education, .certifications, .achievements {
+            margin-bottom: 20px;
+        }
+        .skills ul, .experience ul, .projects ul, .education ul, .certifications ul, .achievements ul {
             list-style-type: none;
             padding: 0;
         }
-        .skills li {
-            background: #4CAF50;
-            color: white;
-            padding: 0.5em;
-            margin: 0.5em 0;
-            border-radius: 4px;
+        .skills li, .experience li, .projects li, .education li, .certifications li, .achievements li {
+            background: #e4e4e4;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
         }
-        footer {
-            text-align: center;
-            padding: 1em 0;
-            background-color: #333;
-            color: white;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
+        .icon {
+            margin-right: 10px;
+            color: #3a5a40;
         }
     </style>
 </head>
 <body>
-
     <header>
+        <img src="profile.jpg" alt="Profile Photo" class="profile-img">
         <h1>Abishek Neduncheliyan</h1>
         <p>Data Governance Specialist</p>
     </header>
-
-    <nav>
-        <a href="#about">About Me</a>
-        <a href="#skills">Skills</a>
-        <a href="#contact">Contact</a>
-    </nav>
-
     <div class="container">
-        <section id="about">
-            <h2 class="section-title">About Me</h2>
-            <p>Hello! I'm Abishek Neduncheliyan, a Data Governance Specialist with a passion for ensuring data integrity and security. With a keen eye for detail and a commitment to excellence, I help organizations manage their data assets effectively and comply with regulatory requirements.</p>
-        </section>
+        <div class="contact-info">
+            <h2>Contact</h2>
+            <p><i class="fas fa-phone icon"></i>+91 8344863232</p>
+            <p><i class="fas fa-envelope icon"></i> abishekabi3232@gmail.com</p>
+            <p><i class="fab fa-linkedin icon"></i> <a href="https://www.linkedin.com/in/abishek-neduncheliyan-54b446213" target="_blank">LinkedIn</a></p>
+        </div>
+        
+        <div class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li><i class="fas fa-code icon"></i> Python, Typescript</li>
+                <li><i class="fas fa-project-diagram icon"></i> Airflow, Docker, Jenkins</li>
+                <li><i class="fas fa-database icon"></i> SQL, ETL - Talend, Datastage, SAP BODS</li>
+                <li><i class="fas fa-chart-line icon"></i> Reporting - Tableau, SSAS, Power BI</li>
+                <li><i class="fas fa-tools icon"></i> Selenium, TestNG, Maven, Postman</li>
+                <li><i class="fas fa-tasks icon"></i> Jira & ServiceNow, Git & Bitbucket</li>
+            </ul>
+        </div>
 
-        <section id="skills">
-            <h2 class="section-title">Skills</h2>
-            <div class="skills">
-                <ul>
-                    <li>Data Governance</li>
-                    <li>Data Quality Management</li>
-                    <li>Data Security</li>
-                    <li>Regulatory Compliance</li>
-                    <li>Data Analysis</li>
-                    <li>Project Management</li>
-                </ul>
-            </div>
-        </section>
+        <div class="achievements">
+            <h2>Achievements</h2>
+            <ul>
+                <li>LinkedIn Top Voice - 2024</li>
+                <li>Employee of the Quarter - Q2 2023</li>
+                <li>EIIG expert - Q4 2022</li>
+                <li>SDET – Q4 2020</li>
+            </ul>
+        </div>
+        
+        <div class="certifications">
+            <h2>Certifications</h2>
+            <ul>
+                <li>Infosys certified Agile developer</li>
+                <li>Infosys certified DevOps professional</li>
+            </ul>
+        </div>
 
-        <section id="contact">
-            <h2 class="section-title">Contact</h2>
-            <p>Feel free to reach out to me at:</p>
-            <p>Email: abishek@example.com</p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/abishek-neduncheliyan" target="_blank">linkedin.com/in/abishek-neduncheliyan</a></p>
-        </section>
+        <div class="experience">
+            <h2>Experience</h2>
+            <ul>
+                <li>
+                    <h3>Product Engineer | Orion Governance (March 2023 - Present)</h3>
+                    <ul>
+                        <li>Leading the development of a scanner to extract metadata and trace lineage from input files across diverse platforms.</li>
+                        <li>Leading the QA team and designing strategies for automation.</li>
+                        <li>Managing multiple customers and coordinating customized solutions.</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Associate Product Engineer | Orion Governance (February 2022 - March 2023)</h3>
+                    <ul>
+                        <li>Developed a pipeline to automate manual testing using PythonOperator, BashOperator, and EmailOperator.</li>
+                        <li>Performed development and maintenance of automation test scripts.</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Senior Operations Executive | Infosys (June 2019 - February 2022)</h3>
+                    <ul>
+                        <li>Developed a utility to retrieve passwords and integrated it into the automation framework.</li>
+                        <li>Automated testing for identified test cases and executed them in a Jenkins cloud environment.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <h3>Data Governance Solutions</h3>
+                    <p>Collaborated with clients to implement cost optimization strategies, enhancing regulatory compliance and project efficiency.</p>
+                </li>
+                <li>
+                    <h3>ETL & Reporting Scanners</h3>
+                    <p>Designed and implemented scanners for extracting metadata and tracing lineage from diverse platforms.</p>
+                </li>
+                <li>
+                    <h3>Automation Rule Book</h3>
+                    <p>Developed an automation framework to validate over 70 technologies, streamlining internal processes.</p>
+                </li>
+                <li>
+                    <h3>Persona</h3>
+                    <p>Built a POC for retrieving passwords and integrated it into the automation framework.</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="education">
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    <h3>B.Sc. Mathematics & Computer Science</h3>
+                    <p>SASTRA University (2016 - 2019) | 6.79 CGPA</p>
+                </li>
+                <li>
+                    <h3>Master of Computer Applications</h3>
+                    <p>University of Madras (2020 - 2022)</p>
+                </li>
+            </ul>
+        </div>
     </div>
-
-    <footer>
-        <p>&copy; 2024 Abishek Neduncheliyan. All rights reserved.</p>
-    </footer>
-
 </body>
 </html>
